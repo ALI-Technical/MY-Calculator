@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Alarm_Clock;}
+    @font-face { font-family: Alarm_Clock; src: url('./custom.ttf'); }
+body{
+    background-image: url(https://media4.giphy.com/media/2tNvsKkc0qFdNhJmKk/giphy.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: #A5D7DF; */
+    display: flex;
+    justify-content: center;
+}
+h2{
+    text-align: center;
+}
+.outer-section{
+    border: 1px solid yellow;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    padding: 2em 0;
+    margin: 2em 0;
+    border-radius: 40px;
+}
+.main-section{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 330px;
+    max-width: 1080px;
+}
+.input-div input[type="button"]{
+    /* border: 1px solid red; */
+     box-shadow: 5px 10px #888888;
+    border-radius: 50%;
+    padding: 5px 30px;
+    text-align: center;
+    font-size: 2em;
+    width: 50px;
+    margin: 0 9px;
+    padding: 10px 30px;
+    padding-right: 50px;
+}
+.input-div{
+    width: 100%;
+    /* border: 1px solid rgb(2, 47, 105); */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.myInput{
+    /* border: 1px solid aqua; */
+    background-color: #E48FA6;
+    border: none;
+    padding-left: 30px;
+    border-radius: 10px;
+    color: #6477EF;
+    height: 2em;
+    font-size: xx-large;
+    width: 300px;
+    font-family: Alarm_Clock;
+    padding: 5px 10px;
+}
+
+.button-div{
+    /* border: 1px solid rgb(15, 175, 36); */
+    margin-top: 20px;
+}
+.button-div input{
+    border-radius: 10px;
+    text-align: center;
+    font-size: 2em;
+    width: 50px;
+    margin: 0 9px;
+    padding: 15px 30px;
+    padding-right: 50px;
+    box-shadow: 5px 10px #888888;
+}

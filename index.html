@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://apkplz.net/storage/images/com/mehmetali/hesapmakinesi/com.mehmetali.hesapmakinesi_1.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>ALI | Calculator</title>
+</head>
+<body class="container">
+    <section class="outer-section">
+
+        <section class="container main-section">
+            <div class="input-div">
+                <input onclick="remove()" class="btn btn-dark" type="button" value="C">
+                <input type="text" readonly id="input-screen" class="myInput">
+            </div>
+            <div class="button-div">
+                <input onclick="buttons(7)" class="btn btn-dark" type="button" value="7">
+                <input onclick="buttons(8)" class="btn btn-dark" type="button" value="8">
+                <input onclick="buttons(9)" class="btn btn-dark" type="button" value="9">
+                <input onclick="buttons('/')" class="btn btn-primary" type="button" value="&#xF7;">
+            </div>
+            <div class="button-div">
+                <input onclick="buttons(4)" class="btn btn-dark" type="button" value="4">
+                <input onclick="buttons(5)" class="btn btn-dark" type="button" value="5">
+                <input onclick="buttons(6)" class="btn btn-dark" type="button" value="6">
+                <input onclick="buttons('*')" class="btn btn-primary" type="button" value="x">
+            </div>
+            <div class="button-div">
+                <input onclick="buttons(1)" class="btn btn-dark" type="button" value="1">
+                <input onclick="buttons(2)" class="btn btn-dark" type="button" value="2">
+                <input onclick="buttons(3)" class="btn btn-dark" type="button" value="3">
+                <input onclick="buttons('-')" class="btn btn-primary" type="button" value="-">
+            </div>
+            <div class="button-div">
+                <input onclick="buttons(0)" class="btn btn-dark" type="button" value="0">
+                <input onclick="buttons('.')" class="btn btn-primary" type="button" value=".">
+                <input onclick="buttons('+')" class="btn btn-primary" type="button" value="+">
+                <input onclick="result('')" class="btn btn-primary" type="button" value="=">
+            </div>
+        </section>
+        <br>
+        <br>
+        <br>
+        <h2>DEVELOPER: M.ALI</h2>
+    </section>
+    
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+<script src="app.js"></script>
+
+</html>
